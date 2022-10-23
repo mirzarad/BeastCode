@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Silkscreen&display=swap');
+
+.modal-background{
+  width: 80vh;
+  height: 65vh;
+  background-color: #378AFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%231FE1FF' stroke-width='42.9' stroke-opacity='0.24' %3E%3Ccircle fill='%23378AFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%233581f0' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%233379e2' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%233071d4' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%232d69c5' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%232b61b8' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%232859aa' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2324519c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2321498f' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%231e4282' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%231a3b75' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23173369' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23132c5c' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%230f2650' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%230c1f45' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23081839' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2306112e' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23020724' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+  transform: scale(2, 2);
+}
+
+.modal-container{
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: rgb(245, 245, 245, 0.5);
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+  padding: 25px;
+}
+
+.modal-container .modal-description {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.modal-container .modal-body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.solution-image{
+  scale: 50%;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+.toggle-modal-button{
+  font-family: Pacifico, sans-serif;
+  color: rgb(174, 12, 61);
+}
+
+.exit-modal-button{
+  font-family: Silkscreen, sans-serif;
+  font-size: 20px;
+  background-color: rgb(153, 0, 66);
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.exit-modal-button:active{
+  transform: translateY(1px);;
+}

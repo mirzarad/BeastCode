@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.codelink-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  align-self: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color:rgb(245, 245, 245);
+}
+
+.toggle-modal-button{
+  font-family: pacifico, sans-serif;
+  margin-bottom: 15px;
+}
