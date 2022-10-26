@@ -11,12 +11,11 @@ const Header = () => {
     roarAudio.play()
   }
 
-
-
   return (
     <div className="header-container">
-      <header className="header-title">BeastCode</header>
+      <header className="header-title">BeastCode.io</header>
       <p className="welcome-text">Are you a beast at algos?</p>
+      <p className="welcome-text">Master algorithm tech interviews with these problems.</p>
       <button onClick={onEmblemClick}className="beast-button">
         <img className="beast-emblem" src={beast} alt="Beast" />
       </button>

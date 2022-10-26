@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Silkscreen&display=swap');
+
+.accordion-container {
+  display: flex;
+  font-family: Silkscreen, sans-serif;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  min-width: 50%;
+}
+
+#enter-the-void-panel{
+  background-color: #721e1e;
+  font-weight: 100;
+  color: whitesmoke;
+  font-family: Silkscreen, sans-serif;
+}
+
+.z-index{
+  z-index: 100;
+}
+
+.sliding-window-panel{
+  background-image: linear-gradient(#4ba0ee,#372fd3);
+  color:whitesmoke;
+}
+
+.islands-matrix-panel{
+  color:whitesmoke;
+  background-image: linear-gradient(#76bc79,#069047);
+}
+
+.two-pointer-panel{
+
+}
+
+.fast-and-slow-pointer-panel{
+
+}
+
+.merge-intervals-panel{
+
+}
+
+.cyclic-sort-panel{
+
+}
+
+.reversal-ll-panel{
+
+}
+
+.bfs-panel{
+
+}
+
+.dfs-panel{
+
+}
+
+.two-heaps-panel{
+
+}
+
+.subsets-panel{
+
+}
+
+.modified-binary-search{
+
+}
+
+.bitwise-xor-panel{
+
+}
+
+.top-k-panel{
+
+}
+
+.merge-kway-panel{
+
+}
+
+.knapsack-panel{
+
+}
+
+.topological-sort-panel{
+
+}
