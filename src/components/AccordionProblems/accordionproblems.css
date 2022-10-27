@@ -9,11 +9,10 @@
   min-width: 50%;
 }
 
-#enter-the-void-panel{
-  background-color: #721e1e;
-  font-weight: 100;
+.enter-the-void-panel{
+  background-color: #000000;
+  font-weight: 1000;
   color: whitesmoke;
-  font-family: Silkscreen, sans-serif;
 }
 
 .z-index{
@@ -25,67 +24,169 @@
   color:whitesmoke;
 }
 
+.sliding-window-panel:active{
+  background-image: linear-gradient(#4ba0ee,#b5b3e7);
+  color:rgb(2, 21, 150);
+}
+
 .islands-matrix-panel{
-  color:whitesmoke;
-  background-image: linear-gradient(#76bc79,#069047);
+  color:rgb(123, 208, 4);
+  background-image: linear-gradient(#519054,#01642f);
+}
+
+.islands-matrix-panel:active{
+  color:rgb(4, 64, 2);
+  background-image: linear-gradient(#76bc79,#ddfdb7);
 }
 
 .two-pointer-panel{
+  color:rgb(228, 223, 162);
+  background-image: linear-gradient(#c70db5,#0cffa2);
+}
 
+.two-pointer-panel:active{
+  color:rgb(63, 255, 72);
+  background-image: linear-gradient(#0cffa2,#c70db5);
 }
 
 .fast-and-slow-pointer-panel{
+  color:rgb(63, 255, 72);
+  background-image: linear-gradient(#570202,#F13C77);
+}
 
+.fast-and-slow-pointer-panel:active{
+  color:rgb(63, 255, 72);
+  background-image: linear-gradient(#ff0c0c,#e86fdc);
 }
 
 .merge-intervals-panel{
+  color:rgb(208, 120, 4);
+  background-image: linear-gradient(#da9708,#ee4006);
+}
 
+.merge-intervals-panel:active{
+  color:rgb(63, 255, 72);
+  background-image: linear-gradient(#ee4006,#da9708);
 }
 
 .cyclic-sort-panel{
+  color:rgb(85, 81, 0);
+  background-image: linear-gradient(#ffffff,#828080);
+}
 
+.cyclic-sort-panel:active{
+  color:rgb(55, 55, 55);
+  background-image: linear-gradient(#828080,#ffffff);
 }
 
 .reversal-ll-panel{
+  color:rgb(226, 250, 12);
+  background-image: linear-gradient(#570101,#94a213);
+}
 
+.reversal-ll-panel:active{
+  color:rgb(63, 255, 72);
+  background-image: linear-gradient(#570101,#94a213);
 }
 
 .bfs-panel{
+  color:rgb(255, 255, 255);
+  background-image: linear-gradient(#00e1ff,#008a9d);
+}
 
+.bfs-panel:active{
+  background-image: linear-gradient(#00e1ff,#8bd8e2);
 }
 
 .dfs-panel{
+  color:rgb(174, 231, 255);
+  background-image: linear-gradient(#008a9d,#2300e9);
+}
 
+.dfs-panel:active{
+  color:rgb(184, 234, 255);
+  background-image: linear-gradient(#09006c,#2300e9);
 }
 
 .two-heaps-panel{
+  color:rgb(69, 0, 0);
+  background-image: linear-gradient(#a43003,#ff0000);
+}
 
+
+.two-heaps-panel:active{
+  color:whitesmoke;
+  background-image: linear-gradient(#a50b0b,#ff9f05);
 }
 
 .subsets-panel{
+  color:rgb(33, 0, 154);
+  background-image: linear-gradient(#a4a4a4,#c8b3b3);
+}
 
+
+.subsets-panel:active{
+  color:rgb(33, 0, 154);
+  background-image: linear-gradient(#151414,#c8b3b3);
 }
 
 .modified-binary-search{
+  color:rgb(33, 0, 154);
+  background-image: linear-gradient(#46fea9,#009758);
+}
 
+
+.modified-binary-search:active{
+  background-image: linear-gradient(#009758,#46fea9);
 }
 
 .bitwise-xor-panel{
+  color:rgb(255, 1, 1);
+  background-image: linear-gradient(#000000,#000000);
+}
 
+
+.bitwise-xor-panel:active{
+  background-image: linear-gradient(#727070,#000000);
 }
 
 .top-k-panel{
+  color:rgb(0, 13, 255);
+  background-image: linear-gradient(#c9d609,#d4bf03);
+}
 
+.top-k-panel:active{
+  color: whitesmoke;
+  background-image: linear-gradient(#028793,#012432);
 }
 
 .merge-kway-panel{
+  color:rgb(238, 255, 0);
+  background-image: linear-gradient(#1000c2,#00ff6e);
+}
 
+
+.merge-kway-panel:active{
+  background-image: linear-gradient(#00ff6e, #1000c2);
 }
 
 .knapsack-panel{
+  color:rgb(0, 255, 149);
+  background-image: linear-gradient(#006b19,#00744b);
+}
 
+
+.knapsack-panel:active{
+  background-image: linear-gradient(#d9ff00,#00744b);
 }
 
 .topological-sort-panel{
+  color:rgb(1, 65, 13);
+  background-image: linear-gradient(#c1f5c2,#00ff6e);
+}
 
+
+.topological-sort-panel:active{
+  color:rgb(255, 0, 0);
+  background-image: linear-gradient(#525252,#005324);
 }
